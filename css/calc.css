@@ -1,0 +1,131 @@
+/* ------------------- Calc ------------------- */
+.calc-wrapper {
+    padding-top: 70px;
+    padding-bottom: 75px;
+}
+
+.calc-heading {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.48px;
+    text-align: center;
+}
+
+.calc-section {
+    padding: 40px 50px;
+    background-color: #f4f8fa;
+}
+
+.calc-section:nth-child(odd) {
+    padding: 40px 50px;
+    background-color: #FFF;
+}
+
+.calc-title-light {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.radio-wrapper {
+    display: flex;
+}
+
+.radio-wrapper:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.radio-holder {
+    margin-right: 15px;
+}
+
+.radio {
+    margin-right: 15px;
+}
+
+.input-wrapper {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.input-wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.input-short {
+    width: 62px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #9a9a9a;
+    font-size: 24px;
+    font-weight: 700;
+    color: #039be5;
+    text-align: center;
+}
+
+.input-wrapper .input-short:first-child {
+    margin-right: 20px;
+}
+
+.input-wrapper .input-short:last-child {
+    margin-left: 20px;
+}
+
+/* ------------ TYPO ------------ */
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+.title-bold {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.title-lite {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.note {
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #969696;
+}
+
+/* ------------ FORMS ------------ */
+
+.checkbox-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.checkbox-wrapper .checkbox {
+    margin-right: 15px;
+}
+
+/* ------------ PRICE ------------ */
+.calc-price {
+    margin-top: 20px;
+    padding: 40px 50px;
+    border: 10px solid #7ac5ea;
+}
+
+.calc-price-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.calc-price-value {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.hidden {
+    display: none;
+}

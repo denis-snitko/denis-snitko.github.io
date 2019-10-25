@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Расчет стоимости проекта. Денис Снитко.</title>
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/calc.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+</head>
+
+<body>
+
+	<header class="header-inner">
+		<div class="container">
+			<div class="header-inner-row">
+
+				<h2 class="heading-inner">
+                    <span>Денис Снитко</span><br>
+                    Верстальщик и веб-разработчик
+                </h2>
+
+				<div class="social-icons">
+					<a href="https://github.com/denis-snitko/" target="_blank" class="social-icon-link">
+						<img src="img/icons/github.png" alt="GitHub" class="social-icon-img">
+					</a>
+					<a href="https://t.me/s_magician" class="social-icon-link">
+						<img src="img/icons/telegram.png" alt="Telegram" class="social-icon-img">
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<article class="calc-wrapper">
+		<div class="container">
+			<form id="price-form" action="">
+
+				<h1 class="calc-heading">Расчет стоимости проекта</h1>
+
+				<!-- Что верстаем  -->
+				<div class="calc-section">
+
+					<div class="calc-title-light">Что верстаем:</div>
+
+					<label class="radio-wrapper">
+						<input type="radio" name="type" value="site" class="radio" id="radio-site" checked>
+						<div class="title-bold">
+							Сайт
+							<div class="note">Многостраничная верстка</div>
+						</div>
+					</label>
+
+					<label class="radio-wrapper">
+						<input type="radio" name="type" value="landing" class="radio" id="radio-landing">
+						<div class="title-bold">
+							Лендинг
+							<div class="note">Одна страница на несколько секций</div>
+						</div>
+					</label>
+
+				</div>
+				<!-- // Что верстаем  -->
+
+				<!-- Количество страниц -->
+				<div class="calc-section">
+
+					<div class="input-wrapper" data-name="pages">
+						<div class="title-bold">
+							Количество уникальных страниц:
+							<div class="note"> <span data-price="pagesUniquePrice">100</span> руб / страница</div>
+						</div>
+						<input type="number" class="input-short" placeholder="0" name="pages-unique" value="0">
+					</div>
+
+					<div class="input-wrapper" data-name="pages">
+						<div class="title-bold">
+							Количество типовых страниц:
+							<div class="note"> <span data-price="pagesGeneralPrice">60</span> руб / страница</div>
+						</div>
+						<input type="number" class="input-short" placeholder="0" name="pages-general" value="0">
+					</div>
+
+					<div class="input-wrapper" data-name="landing">
+						<div class="title-bold">
+							Количество секций:
+							<div class="note"> <span data-price="sectionsPrice">60</span> руб / секция</div>
+						</div>
+						<input type="number" class="input-short" placeholder="0" name="sections" value="0">
+					</div>
+
+				</div>
+				<!-- // Количество страниц -->
+
+				<!-- Мобильная адаптивность -->
+				<div class="calc-section">
+
+					<label class="checkbox-wrapper title-bold section-title">
+						<input type="checkbox" class="checkbox" id="" name="mobile">
+						Мобильная адаптивность:
+					</label>
+
+					<input type="radio" name="mobile-number" value="0" class="hidden" checked>
+
+					<label class="radio-wrapper" data-name="mobile">
+						<div class="radio-holder">
+							<input type="radio" name="mobile-number" value="2">
+						</div>
+						<div class="title-lite">2 точки перелома
+							<div class="note">+30% к стоимости</div>
+						</div>
+					</label>
+
+					<label class="radio-wrapper" data-name="mobile">
+						<div class="radio-holder">
+							<input type="radio" name="mobile-number" value="3">
+						</div>
+						<div class="title-lite">3 точки перелома
+							<div class="note">+50% к стоимости</div>
+						</div>
+					</label>
+
+				</div>
+				<!-- // Мобильная адаптивность -->
+
+				<!-- Скрипты на странице -->
+				<div class="calc-section">
+
+					<div class="title-bold section-title">Скрипты на странице:</div>
+
+					<div class="input-wrapper">
+						<input type="number" class="input-short" placeholder="0" value="0" name="carousel">
+						<div class="title-lite">
+							Карусель
+							<div class="note"><span data-price="carouselPrice">40</span> руб / единица</div>
+						</div>
+					</div>
+
+					<div class="input-wrapper">
+						<input type="number" class="input-short" placeholder="0" value="0" name="modals">
+						<div class="title-lite">
+							Модальные окна
+							<div class="note"><span data-price="modalsPrice">30</span> руб / единица</div>
+						</div>
+					</div>
+
+					<div class="input-wrapper">
+						<input type="number" class="input-short" placeholder="0" value="0" name="forms">
+						<div class="title-lite">
+							Формы
+							<div class="note"><span data-price="formsPrice">50</span> руб / единица</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- // Скрипты на странице -->
+
+				<!-- Дополнительно -->
+				<div class="calc-section">
+
+					<div class="title-bold section-title">Дополнительно:</div>
+
+					<label class="checkbox-wrapper title-lite">
+						<input type="checkbox" class="checkbox" name="pixelPerfect">
+						<div>
+							PixelPerfect
+							<div class="note">+20% к стоимости</div>
+						</div>
+					</label>
+
+					<label class="checkbox-wrapper title-lite">
+						<input type="checkbox" class="checkbox" name="retinaReady">
+						<div>
+							Retina Ready
+							<div class="note">+20% к стоимости</div>
+						</div>
+					</label>
+
+					<label class="checkbox-wrapper title-lite">
+						<input type="checkbox" class="checkbox" name="googlePageSpeed">
+						<div>
+							Google Page Speed
+							<div class="note">+20% к стоимости</div>
+						</div>
+					</label>
+
+					<label class="checkbox-wrapper title-lite">
+						<input type="checkbox" class="checkbox" id="" name="urgentOrder">
+						<div>
+							Срочный заказ
+							<div class="note">+50% к стоимости</div>
+						</div>
+					</label>
+
+				</div>
+				<!-- // Дополнительно -->
+
+				<!-- Стоимость проекта -->
+				<div class="calc-price">
+					<div class="calc-price-title"> Стоимость проекта:</div>
+					<div class="calc-price-value"><span id="total-price">0</span> рублей</div>
+				</div>
+				<!-- // Стоимость проекта -->
+
+			</form>
+		</div>
+	</article>
+
+	<footer class="footer footer-inner">
+		<div class="container">
+
+			<div class="footer-cta-title">За созданием сайта:</div>
+			<p class="footer-cta-text">
+				обращайтесь на <a href="mailto:denissnitko@gmail.com">denissnitko@gmail.com</a>
+			</p>
+		</div>
+
+	</footer>
+
+	<script src="libs/jquery-3.3.1.min.js"></script>
+
+	<!-- https://github.com/marioizquierdo/jquery.serializeJSON -->
+	<script src="libs/jquery.serializeJSON/jquery.serializejson.min.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

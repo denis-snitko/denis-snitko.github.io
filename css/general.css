@@ -1,0 +1,115 @@
+/* ------------------- General ------------------- */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #161616;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+}
+
+/* ------------------- Header ------------------- */
+
+.header-inner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #e3f0f7;
+}
+
+.header-inner-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-inner {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.26px;
+    line-height: 1;
+    margin: 0;
+}
+
+.heading-inner span {
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.38px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon-link {
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+/* Для экранов с шириной от 0 до 1170px */
+@media (max-width: 1170px) {
+    .social-icon-link {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+
+/* ------------------- Footer ------------------- */
+
+.footer {
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.footer-cta-title {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.footer-cta-text {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 0.43px;
+}
+
+.footer-cta-text a {
+    color: #4298e8;
+    text-decoration: underline;
+}
+
+/* Для экранов с шириной от 0 до 1170px */
+@media (max-width: 1170px) {
+    
+    .footer-cta-title {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .footer-cta-text {
+        font-size: 22px;
+    }
+
+}
+
+.footer-inner {
+    text-align: center;
+    padding-bottom: 80px;
+}

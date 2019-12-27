@@ -1,231 +1,718 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Расчет стоимости проекта.</title>
-	<link rel="stylesheet" href="css/general.css">
-	<link rel="stylesheet" href="css/calc.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="theme-color" content="#fff">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="shortcut icon" href="../img/favicons/favicon.ico" type="image/x-icon">
+<link rel="icon" sizes="16x16" href="../img/favicons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="../img/favicons/favicon-32x32.png" type="image/png">
+<link rel="apple-touch-icon-precomposed" href="../img/favicons/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon" href="../img/favicons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../img/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../img/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../img/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../img/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../img/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="../img/favicons/apple-touch-icon-167x167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="1024x1024" href="../img/favicons/apple-touch-icon-1024x1024.png">
+
+<link rel="stylesheet" href="./styles/main.css">
+    <title>Lotos</title>
 </head>
 
 <body>
+    <div class="bg-wrapper">
 
-	<header class="header-inner">
-		<div class="container">
-			<div class="header-inner-row">
+        <section class="main" id="main">
+    <div class="content-wrapper">
+        <div class="header">
+            <nav class="menu">
+    <span class="menu__close"></span>
+    <ul class="menu__list">
+        <li class="menu__item">
+            <a class="menu__link" href="#main">Главная</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#classes">Направления</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#treners">Преподаватели</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#abonements">Абонементы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#schedule">Расписание</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакты</a>
+        </li>
+    </ul>
+</nav>
+            <p class="header__text">Добро пожаловать</p>
+            <a class="header__tel" href="/">+7 (812) 345-56-97</a>
+        </div>
 
-				<h2 class="heading-inner">
-                    <span>Денис Снитко</span>
-                </h2>
+        <div class="main-content main-bg">
+            <div class="logo main-content__logo">
+                <a class="logo__link" href="#main" alt="Lotos">
+                    <img src="./img/logo/logo.png" alt="Lotos">
+                </a>
+            </div>
+            
+            <!-- Котнтент -->
+            <div class="main-content__title-inner">
+                <h1 class="main-content__title">
+                    <span class="main-content__small-title">Центр йоги</span>
+                    Lotos
+                </h1>
+                <p class="main-content__desc">
+                    Приглашаем вас и ваших друзей
+                    на бесплатное пробное занятие
+                </p>
+            </div>
+            <!-- Контент -->
 
-				<div class="social-icons">
-					<a href="https://github.com/denis-snitko/" target="_blank" class="social-icon-link">
-						<img src="img/github.png" alt="GitHub" class="social-icon-img">
-					</a>
-					<a href="https://t.me/s_magician" class="social-icon-link">
-						<img src="img/telegram.png" alt="Telegram" class="social-icon-img">
-					</a>
-				</div>
+            <div class="main-content__pagination">
+                <p class="pagination pagination--big">01</p>
+                <p class="pagination pagination--small">- 09</p>
+            </div>
 
-			</div>
-		</div>
-	</header>
+        </div>
 
-	<article class="calc-wrapper">
-		<div class="container">
-			<form id="price-form" action="">
+        <div class="footer">
+            <div class="footer-social">
+                <a class="footer-social__link" href="/">vk</a>
+                <a class="footer-social__link" href="/">fb</a>
+                <a class="footer-social__link" href="/">inst</a>
+            </div>
 
-				<h1 class="calc-heading">Расчет стоимости проекта</h1>
+            <div class="footer-link">
+                <a class="footer-link__down" href="#classes">Направления и классы</a>
+            </div>
+        </div>
 
-				<!-- Что верстаем  -->
-				<div class="calc-section">
+    </div> <!-- ./content-wrapper -->
+</section>
+        <section class="classes" id="classes">
+    <div class="content-wrapper">
+        <div class="header">
+            <nav class="menu">
+    <span class="menu__close"></span>
+    <ul class="menu__list">
+        <li class="menu__item">
+            <a class="menu__link" href="#main">Главная</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#classes">Направления</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#treners">Преподаватели</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#abonements">Абонементы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#schedule">Расписание</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакты</a>
+        </li>
+    </ul>
+</nav>
+            <p class="header__text">Направления и классы</p>
+            <a class="header__tel" href="/">+7 (812) 345-56-97</a>
+        </div>
 
-					<div class="calc-title-light">Что верстаем:</div>
+        <div class="main-content classes-bg">
+            <div class="logo main-content__logo">
+                <a class="logo__link" href="#main" alt="Lotos">
+                    <img src="./img/logo/logo.png" alt="Lotos">
+                </a>
+            </div>
+            
+             <!-- Котнтент -->
+            <div class="classes-content__title-inner">
+                <h3 class="classes-content__title">
+                    Yoga &mdash;
+                </h3>
+                <p class="classes-content__small-title">
+                        Для начинающих</p>
+                <p class="classes-content__desc">
+                    Йога для начинающих рассчитана на тех, кто до этого никогда ей не занимался и требует обучения. Такой программный комплекс существует и в нашем центре.
+                </p>
+                <p class="classes-content__desc">
+                    Мы предлагаем посетить бесплатное вводное занятие, чтобы узнать, почему так много людей занимаются йогой и придерживаются здорового образа жизни.
+                </p>
+                <a href="#trial-two" class="btn btn--plus classes__btn">
+                    Записаться онлайн
+                </a>
+            </div>
+            <!-- Контент -->
 
-					<label class="radio-wrapper">
-						<input type="radio" name="type" value="site" class="radio" id="radio-site" checked>
-						<div class="title-bold">
-							Сайт
-							<div class="note">Многостраничная верстка</div>
-						</div>
-					</label>
+            <div class="main-content__pagination">
+                <p class="pagination pagination--big">02</p>
+                <p class="pagination pagination--small">- 09</p>
+            </div>
+        </div>
 
-					<label class="radio-wrapper">
-						<input type="radio" name="type" value="landing" class="radio" id="radio-landing">
-						<div class="title-bold">
-							Лендинг
-							<div class="note">Одна страница на несколько секций</div>
-						</div>
-					</label>
+        <div class="footer">
+            <div class="footer-social">
+                <a class="footer-social__link" href="/">vk</a>
+                <a class="footer-social__link" href="/">fb</a>
+                <a class="footer-social__link" href="/">inst</a>
+            </div>
 
-				</div>
-				<!-- // Что верстаем  -->
+            <div class="footer-link">
+                <a class="footer-link__down" href="#trial">Пробное занятие</a>
+            </div>
+        </div>
 
-				<!-- Количество страниц -->
-				<div class="calc-section">
+    </div> <!-- ./content-wrapper -->
+</section>
+        <section class="trial" id="trial">
+    <div class="content-wrapper">
+        <div class="header">
+            <nav class="menu">
+    <span class="menu__close"></span>
+    <ul class="menu__list">
+        <li class="menu__item">
+            <a class="menu__link" href="#main">Главная</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#classes">Направления</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#treners">Преподаватели</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#abonements">Абонементы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#schedule">Расписание</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакты</a>
+        </li>
+    </ul>
+</nav>
+            <p class="header__text">Пробное занятие</p>
+            <a class="header__tel" href="/">+7 (812) 345-56-97</a>
+        </div>
 
-					<div class="input-wrapper" data-name="pages">
-						<div class="title-bold">
-							Количество уникальных страниц:
-							<div class="note"> <span data-price="pagesUniquePrice">80</span> руб / страница</div>
-						</div>
-						<input type="number" class="input-short" placeholder="0" name="pages-unique" value="0">
-					</div>
+        <div class="main-content trial-bg">
+            <div class="logo main-content__logo">
+                <a class="logo__link" href="#main" alt="Lotos">
+                    <img src="./img/logo/logo.png" alt="Lotos">
+                </a>
+            </div>
 
-					<div class="input-wrapper" data-name="pages">
-						<div class="title-bold">
-							Количество типовых страниц:
-							<div class="note"> <span data-price="pagesGeneralPrice">40</span> руб / страница</div>
-						</div>
-						<input type="number" class="input-short" placeholder="0" name="pages-general" value="0">
-					</div>
+            <!-- Котнтент -->
+            <div class="trial-content__title-inner">
+                <h3 class="trial-content__title">
+                    10%
+                </h3>
+                <span class="trial-content__small-title">
+                    скидка <br> на абонемент</span>
+                <p class="trial-content__desc">
+                    Мы сделаем для вас 10% скидку на абонемент,
+                    купленный в день посещения вводного занятия.
+                </p>
 
-					<div class="input-wrapper" data-name="landing">
-						<div class="title-bold">
-							Количество секций:
-							<div class="note"> <span data-price="sectionsPrice">40</span> руб / секция</div>
-						</div>
-						<input type="number" class="input-short" placeholder="0" name="sections" value="0">
-					</div>
+                <form class="main-form" action="">
+    <input class="main-form__input" type="text" name="" placeholder="Ваше имя" id="">
+    <input class="main-form__input" type="tel" name="" placeholder="Ваш телефон" id="">
+    <button type="button" class="btn trial__btn" href="#trial-two">
+        Отправить заявку
+    </button>
+</form>
+<p class="main-form__text">
+    Нажимая «Отправить заявку», вы даете <a href="/">согласие</a> на обработку своих персональных данных
+</p>
 
-				</div>
-				<!-- // Количество страниц -->
+            </div>
+            <!-- Контент -->
 
-				<!-- Мобильная адаптивность -->
-				<div class="calc-section">
+            <div class="main-content__pagination">
+                <p class="pagination pagination--big">03</p>
+                <p class="pagination pagination--small">- 09</p>
+            </div>
+        </div>
 
-					<label class="checkbox-wrapper title-bold section-title">
-						<input type="checkbox" class="checkbox" id="" name="mobile">
-						Мобильная адаптивность:
-					</label>
+        <div class="footer">
+            <div class="footer-social">
+                <a class="footer-social__link" href="/">vk</a>
+                <a class="footer-social__link" href="/">fb</a>
+                <a class="footer-social__link" href="/">inst</a>
+            </div>
 
-					<input type="radio" name="mobile-number" value="0" class="hidden" checked>
+            <div class="footer-link">
+                <a class="footer-link__down" href="#treners">Преподователи</a>
+            </div>
+        </div>
 
-					<label class="radio-wrapper" data-name="mobile">
-						<div class="radio-holder">
-							<input type="radio" name="mobile-number" value="2">
-						</div>
-						<div class="title-lite">2 точки перелома
-							<div class="note">+30% к стоимости</div>
-						</div>
-					</label>
+    </div> <!-- ./content-wrapper -->
+</section>
+        <section class="treners" id="treners">
+    <div class="content-wrapper">
+        <div class="header">
+            <nav class="menu">
+    <span class="menu__close"></span>
+    <ul class="menu__list">
+        <li class="menu__item">
+            <a class="menu__link" href="#main">Главная</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#classes">Направления</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#treners">Преподаватели</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#abonements">Абонементы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#schedule">Расписание</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакты</a>
+        </li>
+    </ul>
+</nav>
+            <p class="header__text">Преподователи</p>
+            <a class="header__tel" href="/">+7 (812) 345-56-97</a>
+        </div>
+        <div class="main-content teachers-bg">
+            <div class="logo main-content__logo">
+                <a class="logo__link" href="#main" alt="Lotos">
+                    <img src="./img/logo/logo.png" alt="Lotos">
+                </a>
+            </div>
 
-					<label class="radio-wrapper" data-name="mobile">
-						<div class="radio-holder">
-							<input type="radio" name="mobile-number" value="3">
-						</div>
-						<div class="title-lite">3 точки перелома
-							<div class="note">+50% к стоимости</div>
-						</div>
-					</label>
+            <!-- Котнтент -->
+            <div class="teachers-content__title-inner">
+                <h3 class="teachers-content__title">
+                    Максим Казаков
+                </h3>
+                <span class="teachers-content__small-title">
+                    Преподаватель йоги с 1997 года</span>
+                <p class="teachers-content__desc">
+                    Занимается йогой Айенгара с 1990 года. Является преподавателем йоги Айенгара с 1997 года. Имеет
+                    международный сертификат Junior I. Проводит семинары, занятия разных уровней сложностей.
+                </p>
+                <p class="teachers-content__desc">
+                    В йогу привел интерес. Является одним из самых опытных преподавателей и опорой нашего центра. Все
+                    студенты любят Максима за отзывчивость
+                    и индивидуальный подход к каждому.
+                </p>
 
-				</div>
-				<!-- // Мобильная адаптивность -->
+                <a href="#trial-two" class="btn btn--plus teachers__btn">
+                    Записаться к тренеру
+                </a>
 
-				<!-- Скрипты на странице -->
-				<div class="calc-section">
+            </div>
+            <!-- Контент -->
 
-					<div class="title-bold section-title">Скрипты на странице:</div>
 
-					<div class="input-wrapper">
-						<input type="number" class="input-short" placeholder="0" value="0" name="carousel">
-						<div class="title-lite">
-							Карусель
-							<div class="note"><span data-price="carouselPrice">30</span> руб / единица</div>
-						</div>
-					</div>
+            <div class="main-content__pagination">
+                <p class="pagination pagination--big">04</p>
+                <p class="pagination pagination--small">- 09</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-social">
+                <a class="footer-social__link" href="/">vk</a>
+                <a class="footer-social__link" href="/">fb</a>
+                <a class="footer-social__link" href="/">inst</a>
+            </div>
 
-					<div class="input-wrapper">
-						<input type="number" class="input-short" placeholder="0" value="0" name="modals">
-						<div class="title-lite">
-							Модальные окна
-							<div class="note"><span data-price="modalsPrice">30</span> руб / единица</div>
-						</div>
-					</div>
+            <div class="footer-link">
+                <a class="footer-link__down" href="#abonements">Абонементы</a>
+            </div>
+        </div>
 
-					<div class="input-wrapper">
-						<input type="number" class="input-short" placeholder="0" value="0" name="forms">
-						<div class="title-lite">
-							Формы
-							<div class="note"><span data-price="formsPrice">40</span> руб / единица</div>
-						</div>
-					</div>
+    </div> <!-- ./content-wrapper -->
+</section>
+        <section class="abonements" id="abonements">
+    <div class="content-wrapper">
+        <div class="header">
+            <nav class="menu">
+    <span class="menu__close"></span>
+    <ul class="menu__list">
+        <li class="menu__item">
+            <a class="menu__link" href="#main">Главная</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#classes">Направления</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#treners">Преподаватели</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#abonements">Абонементы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#schedule">Расписание</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакты</a>
+        </li>
+    </ul>
+</nav>
+            <p class="header__text">Абонементы</p>
+            <a class="header__tel" href="/">+7 (812) 345-56-97</a>
+        </div>
+        <div class="main-content abonements-bg">
+            <div class="logo main-content__logo">
+                <a class="logo__link" href="#main" alt="Lotos">
+                    <img src="./img/logo/logo.png" alt="Lotos">
+                </a>
+            </div>
 
-				</div>
-				<!-- // Скрипты на странице -->
+            <!-- Котнтент -->
+            <div class="abonements-content__title-inner">
 
-				<!-- Дополнительно -->
-				<div class="calc-section">
+                <div class="abonements__wrapper">
+                    <div class="row">
+                        <div class="abonements__item item-abonements">
+                            <h4 class="item-abonements__title">
+                                Разовое занятие
+                            </h4>
+                            <p class="item-abonements__price"><span>300</span> руб.</p>
+                            <div class="circle"></div>
+                        </div>
+                        <div class="abonements__item item-abonements">
+                            <h4 class="item-abonements__title">
+                                Месяц занятий
+                            </h4>
+                            <p class="item-abonements__price"><span>2 000</span> руб.</p>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="abonements__item item-abonements">
+                            <h4 class="item-abonements__title">
+                                2 месяца занятий
+                            </h4>
+                            <p class="item-abonements__price"><span>3 500</span> руб.</p>
+                            <div class="circle"></div>
+                        </div>
+                        <div class="abonements__item item-abonements">
+                            <h4 class="item-abonements__title">
+                                3 месяца занятий
+                            </h4>
+                            <p class="item-abonements__price"><span>4 500</span> руб.</p>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="abonements__item item-abonements">
+                            <h4 class="item-abonements__title">
+                                Пол года занятий
+                            </h4>
+                            <p class="item-abonements__price"><span>8 000</span> руб.</p>
+                            <div class="circle"></div>
+                        </div>
+                        <div class="abonements__item item-abonements">
+                            <h4 class="item-abonements__title">
+                                Год занятий
+                            </h4>
+                            <p class="item-abonements__price"><span>14 000</span> руб.</p>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
 
-					<div class="title-bold section-title">Дополнительно:</div>
+                <a href="" class="btn btn--checked abonements__btn">
+                    Заказать абонемент
+                </a>
+            </div>
+            <!-- Контент -->
 
-					<label class="checkbox-wrapper title-lite">
-						<input type="checkbox" class="checkbox" name="pixelPerfect">
-						<div>
-							PixelPerfect
-							<div class="note">+20% к стоимости</div>
-						</div>
-					</label>
+            <div class="main-content__pagination">
+                <p class="pagination pagination--big">05</p>
+                <p class="pagination pagination--small">- 09</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-social">
+                <a class="footer-social__link" href="/">vk</a>
+                <a class="footer-social__link" href="/">fb</a>
+                <a class="footer-social__link" href="/">inst</a>
+            </div>
 
-					<label class="checkbox-wrapper title-lite">
-						<input type="checkbox" class="checkbox" name="retinaReady">
-						<div>
-							Retina Ready
-							<div class="note">+20% к стоимости</div>
-						</div>
-					</label>
+            <div class="footer-link">
+                <a class="footer-link__down" href="#schedule">Расписание</a>
+            </div>
+        </div>
 
-					<label class="checkbox-wrapper title-lite">
-						<input type="checkbox" class="checkbox" name="googlePageSpeed">
-						<div>
-							Google Page Speed
-							<div class="note">+20% к стоимости</div>
-						</div>
-					</label>
+    </div> <!-- ./content-wrapper -->
+</section>
+        <section class="schedule" id="schedule">
+    <div class="content-wrapper">
+        <div class="header">
+            <nav class="menu">
+    <span class="menu__close"></span>
+    <ul class="menu__list">
+        <li class="menu__item">
+            <a class="menu__link" href="#main">Главная</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#classes">Направления</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#treners">Преподаватели</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#abonements">Абонементы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#schedule">Расписание</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакты</a>
+        </li>
+    </ul>
+</nav>
+            <p class="header__text">Расписание</p>
+            <a class="header__tel" href="/">+7 (812) 345-56-97</a>
+        </div>
+        <div class="main-content classes-bg">
+            <div class="logo main-content__logo">
+                <a class="logo__link" href="#main" alt="Lotos">
+                    <img src="./img/logo/logo.png" alt="Lotos">
+                </a>
+            </div>
 
-					<label class="checkbox-wrapper title-lite">
-						<input type="checkbox" class="checkbox" id="" name="urgentOrder">
-						<div>
-							Срочный заказ
-							<div class="note">+50% к стоимости</div>
-						</div>
-					</label>
 
-				</div>
-				<!-- // Дополнительно -->
+            <div class="main-content__pagination">
+                <p class="pagination pagination--big">06</p>
+                <p class="pagination pagination--small">- 09</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-social">
+                <a class="footer-social__link" href="/">vk</a>
+                <a class="footer-social__link" href="/">fb</a>
+                <a class="footer-social__link" href="/">inst</a>
+            </div>
 
-				<!-- Стоимость проекта -->
-				<div class="calc-price">
-					<div class="calc-price-title"> Стоимость проекта:</div>
-					<div class="calc-price-value"><span id="total-price">0</span> рублей</div>
-				</div>
-				<!-- // Стоимость проекта -->
+            <div class="footer-link">
+                <a class="footer-link__down" href="#reviews">Отзывы</a>
+            </div>
+        </div>
 
-			</form>
-		</div>
-	</article>
+    </div> <!-- ./content-wrapper -->
+</section>
+        <section class="reviews" id="reviews">
+    <div class="content-wrapper">
+        <div class="header">
+            <nav class="menu">
+    <span class="menu__close"></span>
+    <ul class="menu__list">
+        <li class="menu__item">
+            <a class="menu__link" href="#main">Главная</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#classes">Направления</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#treners">Преподаватели</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#abonements">Абонементы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#schedule">Расписание</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакты</a>
+        </li>
+    </ul>
+</nav>
+            <p class="header__text">Отзывы</p>
+            <a class="header__tel" href="/">+7 (812) 345-56-97</a>
+        </div>
+        <div class="main-content classes-bg">
+            <div class="logo main-content__logo">
+                <a class="logo__link" href="#main" alt="Lotos">
+                    <img src="./img/logo/logo.png" alt="Lotos">
+                </a>
+            </div>
 
-	<footer class="footer footer-inner">
-		<div class="container">
 
-			<div class="footer-cta-title">За созданием сайта:</div>
-			<p class="footer-cta-text">
-				обращайтесь на <a href="mailto:denissnitko@gmail.com">denissnitko@gmail.com</a>
-			</p>
-		</div>
+            <div class="main-content__pagination">
+                <p class="pagination pagination--big">07</p>
+                <p class="pagination pagination--small">- 09</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-social">
+                <a class="footer-social__link" href="/">vk</a>
+                <a class="footer-social__link" href="/">fb</a>
+                <a class="footer-social__link" href="/">inst</a>
+            </div>
 
-	</footer>
+            <div class="footer-link">
+                <a class="footer-link__down" href="#trial-two">Оставить заявку</a>
+            </div>
+        </div>
 
-	<script src="libs/jquery-3.3.1.min.js"></script>
+    </div> <!-- ./content-wrapper -->
+</section>
+        <section class="trial-two" id="trial-two">
+    <div class="content-wrapper">
+        <div class="header">
+            <nav class="menu">
+    <span class="menu__close"></span>
+    <ul class="menu__list">
+        <li class="menu__item">
+            <a class="menu__link" href="#main">Главная</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#classes">Направления</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#treners">Преподаватели</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#abonements">Абонементы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#schedule">Расписание</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакты</a>
+        </li>
+    </ul>
+</nav>
+            <p class="header__text">Пробное занятие</p>
+            <a class="header__tel" href="/">+7 (812) 345-56-97</a>
+        </div>
 
-	<!-- https://github.com/marioizquierdo/jquery.serializeJSON -->
-	<script src="libs/jquery.serializejson.min.js"></script>
+        <div class="main-content classes-bg">
+            <div class="logo main-content__logo">
+                <a class="logo__link" href="#main" alt="Lotos">
+                    <img src="./img/logo/logo.png" alt="Lotos">
+                </a>
+            </div>
+            
 
-	<script src="js/main.js"></script>
+            <div class="main-content__pagination">
+                <p class="pagination pagination--big">08</p>
+                <p class="pagination pagination--small">- 09</p>
+            </div>
+        </div>
 
+        <div class="footer">
+            <div class="footer-social">
+                <a class="footer-social__link" href="/">vk</a>
+                <a class="footer-social__link" href="/">fb</a>
+                <a class="footer-social__link" href="/">inst</a>
+            </div>
+
+            <div class="footer-link">
+                <a class="footer-link__down" href="#contacts">Контакты</a>
+            </div>
+        </div>
+
+    </div> <!-- ./content-wrapper -->
+</section>
+        <section class="contacts" id="contacts">
+    <div class="content-wrapper">
+        <div class="header">
+            <nav class="menu">
+    <span class="menu__close"></span>
+    <ul class="menu__list">
+        <li class="menu__item">
+            <a class="menu__link" href="#main">Главная</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#classes">Направления</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#treners">Преподаватели</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#abonements">Абонементы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#schedule">Расписание</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакты</a>
+        </li>
+    </ul>
+</nav>
+            <p class="header__text">Контакты</p>
+            <a class="header__tel" href="/">+7 (812) 345-56-97</a>
+        </div>
+        <div class="main-content contacts-bg">
+            <div class="logo main-content__logo">
+                <a class="logo__link" href="#main" alt="Lotos">
+                    <img src="./img/logo/logo.png" alt="Lotos">
+                </a>
+            </div>
+
+
+            <div class="main-content__pagination">
+                <p class="pagination pagination--big">09</p>
+                <p class="pagination pagination--small">- 09</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-social">
+                <a class="footer-social__link" href="/">vk</a>
+                <a class="footer-social__link" href="/">fb</a>
+                <a class="footer-social__link" href="/">inst</a>
+            </div>
+
+            <div class="footer-link">
+                <a class="footer-link__down" href="#main">Вернуться</a>
+            </div>
+        </div>
+
+    </div> <!-- ./content-wrapper -->
+</section>
+    </div>
+    <!-- <script src="./js/vendor.js"></script> -->
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

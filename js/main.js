@@ -1,103 +1,135 @@
-const form = $('#price-form');
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "/";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/js/index.js");
+/******/ })
+/************************************************************************/
+/******/ ({
 
-let formData = form.serializeJSON();
+/***/ "./src/blocks/modules/abonements/abonements.js":
+/*!*****************************************************!*\
+  !*** ./src/blocks/modules/abonements/abonements.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-let pagesUniquePrice = $('[data-price="pagesUniquePrice"]').text(); // уникальные страницы
-let pagesGeneralPrice = $('[data-price="pagesGeneralPrice"]').text(); // типовые страницы
-let sectionsPrice = $('[data-price="sectionsPrice"]').text(); // количество секций в лендинге
-let carouselPrice = $('[data-price="carouselPrice"]').text(); // количество каруселей и слайдеров
-let modalsPrice = $('[data-price="modalsPrice"]').text(); // количество модальных окон
-let formsPrice = $('[data-price="formsPrice"]').text(); // количество форм
+eval("var circle = document.querySelectorAll('.circle');\n\nfor (var i = 0; i < circle.length; i++) {\n  circle[i].addEventListener('click', function () {\n    this.classList.toggle('circle--active');\n  });\n}\n\n//# sourceURL=webpack:///./src/blocks/modules/abonements/abonements.js?");
 
-showHideBlocks();
+/***/ }),
 
-form.on('keyup change paste', 'input, select, textarea', function () {
-    formData = form.serializeJSON();
+/***/ "./src/blocks/modules/menu/menu.js":
+/*!*****************************************!*\
+  !*** ./src/blocks/modules/menu/menu.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-    showHideBlocks();
-    formData = form.serializeJSON();
+eval("\n\n//# sourceURL=webpack:///./src/blocks/modules/menu/menu.js?");
 
-    calculatePrice();
-    updatePrice(calculatePrice());
-});
+/***/ }),
 
-// Функции
-function showHideBlocks() {
-    if (formData.type == 'site') {
-        $('[data-name="pages"]').show();
-        $('[data-name="landing"]').hide();
-        $('[name="sections"]').val('0');
+/***/ "./src/js/import/modules.js":
+/*!**********************************!*\
+  !*** ./src/js/import/modules.js ***!
+  \**********************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-    } else {
-        $('[data-name="pages"]').hide();
-        $('[data-name="landing"]').show();
-        $('[data-name="pages"] input').val('0');
-    }
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _blocks_modules_menu_menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../blocks/modules/menu/menu */ \"./src/blocks/modules/menu/menu.js\");\n/* harmony import */ var _blocks_modules_menu_menu__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_blocks_modules_menu_menu__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _blocks_modules_abonements_abonements__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../blocks/modules/abonements/abonements */ \"./src/blocks/modules/abonements/abonements.js\");\n/* harmony import */ var _blocks_modules_abonements_abonements__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_blocks_modules_abonements_abonements__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack:///./src/js/import/modules.js?");
 
-    if (formData.mobile == 'on') {
-        $('[data-name="mobile"]').show();
-    } else {
-        $('[data-name="mobile"]').hide();
-        $('[name="mobile-number"]')[0].checked = true;
-        $('[name="mobile-number"]')[1].checked = false;
-        $('[name="mobile-number"]')[2].checked = false;
-    }
-}
+/***/ }),
 
-function calculatePrice() {
-    //Стоимость и ценник
-    let totalPrice = 0;
-    totalPrice =
-        formData['pages-unique'] * pagesUniquePrice +
-        formData['pages-general'] * pagesGeneralPrice +
-        formData['sections'] * sectionsPrice +
-        formData['carousel'] * carouselPrice +
-        formData['modals'] * modalsPrice +
-        formData['forms'] * formsPrice;
+/***/ "./src/js/index.js":
+/*!*************************!*\
+  !*** ./src/js/index.js ***!
+  \*************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-    //Мобильный мультипликатор
-    let multiplicatorMobile = 1;
-    if (formData['mobile-number'] == 2) {
-        multiplicatorMobile = 1.3;
-    } else if (formData['mobile-number'] == 3) {
-        multiplicatorMobile = 1.5;
-    }
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _import_modules__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./import/modules */ \"./src/js/import/modules.js\");\n\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
-    //PixelPerfect мультипликатор
-    let mPixelPerfect = 1;
-    if (formData['pixelPerfect'] == 'on') {
-        mPixelPerfect = 1.2;
-    }
+/***/ })
 
-    //Retina ready мультипликатор
-    let mRetinaReady = 1;
-    if (formData['retinaReady'] == 'on') {
-        mRetinaReady = 1.2;
-    }
-
-    //googlePageSpeed мультипликатор
-    let mGooglePageSpeed = 1;
-    if (formData['googlePageSpeed'] == 'on') {
-        mGooglePageSpeed = 1.2;
-    }
-
-    //Urgent Order мультипликатор
-    let mUrgentOrder = 1;
-    if (formData['urgentOrder'] == 'on') {
-        mUrgentOrder = 1.5;
-    }
-
-    totalPrice =
-        totalPrice *
-        multiplicatorMobile *
-        mPixelPerfect *
-        mRetinaReady *
-        mGooglePageSpeed *
-        mUrgentOrder;
-
-    return totalPrice;
-}
-
-function updatePrice(price) {
-    $('#total-price').text(price);
-}
+/******/ });

@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var circle = document.querySelectorAll('.circle');\n\nfor (var i = 0; i < circle.length; i++) {\n  circle[i].addEventListener('click', function () {\n    this.classList.toggle('circle--active');\n  });\n}\n\n//# sourceURL=webpack:///./src/blocks/modules/abonements/abonements.js?");
+eval("\n\n//# sourceURL=webpack:///./src/blocks/modules/abonements/abonements.js?");
 
 /***/ }),
 
@@ -104,7 +104,7 @@ eval("var circle = document.querySelectorAll('.circle');\n\nfor (var i = 0; i < 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./src/blocks/modules/menu/menu.js?");
+eval("var menuClose = document.querySelectorAll('.menu__close');\nvar menuList = document.querySelectorAll('.menu__list');\n\nfor (var i = 0; i < menuClose.length; i++) {\n  menuClose[i].addEventListener('click', function () {\n    for (var _i = 0; _i < menuList.length; _i++) {\n      menuList[_i].classList.toggle('show'); // console.log(menuList);\n\n    }\n  });\n}\n\n//# sourceURL=webpack:///./src/blocks/modules/menu/menu.js?");
 
 /***/ }),
 

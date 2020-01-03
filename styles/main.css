@@ -206,6 +206,15 @@ a {
   color: inherit;
 }
 
+#radio1,
+#radio2,
+#radio3,
+#radio4,
+#radio5,
+#radio6 {
+  display: none;
+}
+
 .bg-wrapper {
   background-color: #282828;
   height: 100%;
@@ -775,6 +784,13 @@ a {
   color: #fff;
 }
 
+.trial-two-bg {
+  background-image: url("../img/bg/08.png");
+  background-repeat: no-repeat;
+  background-size: 26vw;
+  background-position: 150px center;
+}
+
 .menu {
   position: absolute;
   z-index: 150;
@@ -782,8 +798,15 @@ a {
 }
 
 .menu__list {
+  padding: 6px 20px;
+  position: relative;
+  z-index: 1000;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.25s visibility, 0.25s opacity;
+  background-color: #fbf5f4;
 }
 
 .menu__item {
@@ -829,6 +852,42 @@ a {
   top: 11px;
   right: -2px;
   transform: rotate(-45deg);
+}
+
+.menu__open {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.menu__open::before,
+.menu__open::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #f78e6a;
+}
+
+.menu__open::before {
+  top: 11px;
+  right: -2px;
+}
+
+.menu__open::after {
+  top: 11px;
+  right: -2px;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
 }
 
 .main-form {

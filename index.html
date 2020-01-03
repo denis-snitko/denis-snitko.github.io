@@ -403,14 +403,16 @@
                                 Разовое занятие
                             </h4>
                             <p class="item-abonements__price"><span>300</span> руб.</p>
-                            <div class="circle"></div>
+                            <label class="circle" for="radio1"></label>
+                            <input type="radio" id="radio1" name="priceAbonement" checked>
                         </div>
                         <div class="abonements__item item-abonements">
                             <h4 class="item-abonements__title">
                                 Месяц занятий
                             </h4>
                             <p class="item-abonements__price"><span>2 000</span> руб.</p>
-                            <div class="circle"></div>
+                            <label class="circle" for="radio2"></label>
+                            <input type="radio" id="radio2" name="priceAbonement">
                         </div>
                     </div>
                     <div class="row">
@@ -419,14 +421,16 @@
                                 2 месяца занятий
                             </h4>
                             <p class="item-abonements__price"><span>3 500</span> руб.</p>
-                            <div class="circle"></div>
+                            <label class="circle" for="radio3"></label>
+                            <input type="radio" id="radio3" name="priceAbonement">
                         </div>
                         <div class="abonements__item item-abonements">
                             <h4 class="item-abonements__title">
                                 3 месяца занятий
                             </h4>
                             <p class="item-abonements__price"><span>4 500</span> руб.</p>
-                            <div class="circle"></div>
+                            <label class="circle" for="radio4"></label>
+                            <input type="radio" id="radio4" name="priceAbonement">
                         </div>
                     </div>
                     <div class="row">
@@ -435,14 +439,16 @@
                                 Пол года занятий
                             </h4>
                             <p class="item-abonements__price"><span>8 000</span> руб.</p>
-                            <div class="circle"></div>
+                            <label class="circle" for="radio5"></label>
+                            <input type="radio" id="radio5" name="priceAbonement">
                         </div>
                         <div class="abonements__item item-abonements">
                             <h4 class="item-abonements__title">
                                 Год занятий
                             </h4>
                             <p class="item-abonements__price"><span>14 000</span> руб.</p>
-                            <div class="circle"></div>
+                            <label class="circle" for="radio6"></label>
+                            <input type="radio" id="radio6" name="priceAbonement">
                         </div>
                     </div>
                 </div>
@@ -504,7 +510,7 @@
             <p class="header__text">Расписание</p>
             <a class="header__tel" href="/">+7 (812) 345-56-97</a>
         </div>
-        <div class="main-content classes-bg">
+        <div class="main-content">
             <div class="logo main-content__logo">
                 <a class="logo__link" href="#main" alt="Lotos">
                     <img src="./img/logo/logo.png" alt="Lotos">
@@ -623,13 +629,35 @@
             <a class="header__tel" href="/">+7 (812) 345-56-97</a>
         </div>
 
-        <div class="main-content classes-bg">
+        <div class="main-content trial-two-bg">
             <div class="logo main-content__logo">
                 <a class="logo__link" href="#main" alt="Lotos">
                     <img src="./img/logo/logo.png" alt="Lotos">
                 </a>
             </div>
-            
+
+            <div class="trial-content__title-inner">
+                <h3 class="trial-content__title">
+                    10%
+                </h3>
+                <span class="trial-content__small-title">
+                    скидка <br> на абонемент</span>
+                <p class="trial-content__desc">
+                    Хотите скидку на абонемент? Приведите с собой друзей и получите -10% за каждого пришедшего
+                </p>
+
+                <form class="main-form" action="">
+    <input class="main-form__input" type="text" name="" placeholder="Ваше имя" id="">
+    <input class="main-form__input" type="tel" name="" placeholder="Ваш телефон" id="">
+    <button type="button" class="btn trial__btn" href="#trial-two">
+        Отправить заявку
+    </button>
+</form>
+<p class="main-form__text">
+    Нажимая «Отправить заявку», вы даете <a href="/">согласие</a> на обработку своих персональных данных
+</p>
+
+            </div>
 
             <div class="main-content__pagination">
                 <p class="pagination pagination--big">08</p>

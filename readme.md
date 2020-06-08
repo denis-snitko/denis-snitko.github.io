@@ -1,6 +1,17 @@
 <body>
     <ul>
-        <li><a href="https://denis-snitko.github.io/all-corp/" target="_blank">Коммерческий проект - All-Corp</a></li>
+        <li><a href="https://denis-snitko.github.io/all-corp/" target="_blank">Коммерческий проект - All-Corp</a>
+			<p>Список сверстанных страниц</p>
+    <ul>
+        <li><a href="https://denis-snitko.github.io/all-corp/index.html">index.html</a></li>
+        <li><a href="https://denis-snitko.github.io/all-corp/all-products.html">all-products.html</a></li>
+        <li><a href="https://denis-snitko.github.io/all-corp/all-medical.html">all-medical.html</a></li>
+        <li><a href="https://denis-snitko.github.io/all-corp/all-rent.html">all-rent.html</a></li>
+        <li><a href="https://denis-snitko.github.io/all-corp/cosmetology.html">cosmetology.html</a></li>
+        <li><a href="https://denis-snitko.github.io/all-corp/page-product.html">page-product.html</a></li>
+        <li><a href="https://denis-snitko.github.io/all-corp/page-articles.html">page-articles.html</a></li>
+    </ul>
+		</li>
         <li><a href="https://denis-snitko.github.io/pr-doski/" target="_blank">Коммерческий проект - Doski</a></li>
 	 <br>
 	 <li><a href="https://denis-snitko.github.io/calculator/" target="_blank">Калькулятор стоимости разработки Front-end части проекта</a></li>

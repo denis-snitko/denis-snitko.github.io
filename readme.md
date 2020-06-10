@@ -9,6 +9,8 @@
 				<li><a href="https://denis-snitko.github.io/all-corp/cosmetology.html">cosmetology.html</a></li>
 				<li><a href="https://denis-snitko.github.io/all-corp/page-product.html">page-product.html</a></li>
 				<li><a href="https://denis-snitko.github.io/all-corp/page-articles.html">page-articles.html</a></li>
+				<li><a href="https://denis-snitko.github.io/all-corp/all-services.html">all-services.html</a></li>
+        		<li><a href="https://denis-snitko.github.io/all-corp/service.html">service.html</a></li>
 			</ul>
 		</li>
 		<br>

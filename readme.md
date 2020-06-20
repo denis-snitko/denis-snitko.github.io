@@ -1,5 +1,5 @@
 <body>
-    <ul>
+    <ul> <!--Список-->
         <li><a href="https://denis-snitko.github.io/all-corp/" target="_blank">Коммерческий проект - All-Corp</a>
 			<ul>
 				<li><a href="https://denis-snitko.github.io/all-corp/index.html">index.html</a></li>
@@ -11,7 +11,7 @@
 				<li><a href="https://denis-snitko.github.io/all-corp/page-articles.html">page-articles.html</a></li>
 				<li><a href="https://denis-snitko.github.io/all-corp/all-services.html">all-services.html</a></li>
         		<li><a href="https://denis-snitko.github.io/all-corp/service.html">service.html</a></li>
-			</ul>
+			</ul> 
 		</li>
 		<br>
         <li><a href="https://denis-snitko.github.io/pr-doski/" target="_blank">Коммерческий проект - Doski</a></li>

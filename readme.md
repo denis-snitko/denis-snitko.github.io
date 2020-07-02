@@ -1,6 +1,6 @@
 <body>
     <ul> <!--Список-->
-        <li><a href="denis-snitko.github.io/vigpoint/" target="_blank">Коммерческий проект - Vigpoint</a></li>
+        <li><a href="https://denis-snitko.github.io/vigpoint/" target="_blank">Коммерческий проект - Vigpoint</a></li>
 		<br>
         <li><a href="https://denis-snitko.github.io/all-corp/" target="_blank">Коммерческий проект - All-Corp</a>
 			<ul>

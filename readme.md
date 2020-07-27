@@ -1,5 +1,10 @@
 <body>
     <ul> <!--Список-->
+        <li>Коммерческий проект - окна.рф</li>
+		<ul>
+			<li><a href="https://denis-snitko.github.io/okna/">Верстка редизайна страницы</a></li>
+		</ul>
+		<br>
         <li><a href="https://denis-snitko.github.io/vigpoint/" target="_blank">Коммерческий проект - Vigpoint</a></li>
 		<br>
         <li><a href="https://denis-snitko.github.io/all-corp/" target="_blank">Коммерческий проект - All-Corp</a>

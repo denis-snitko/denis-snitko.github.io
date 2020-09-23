@@ -1,5 +1,14 @@
 <body>
-    <ul> <!--Список-->
+		<li><a href="https://denis-snitko.github.io/all-corp/" target="_blank">Коммерческий проект - Мяско</a>
+			<ul>
+				<li><a href="https://denis-snitko.github.io/meat/index.html">index.html</a></li>
+				<li><a href="https://denis-snitko.github.io/meat/assortment.html">assortment.html</a></li>
+				<li><a href="https://denis-snitko.github.io/meat/shops.html">shops.html</a></li>
+				<li><a href="https://denis-snitko.github.io/meat/about.html">about.html</a></li>
+			</ul> 
+		</li>
+		<br>
+    <ul>
         <li>Коммерческий проект - окна.рф</li>
 		<ul>
 			<li><a href="https://denis-snitko.github.io/okna/">Верстка редизайна страницы</a></li>

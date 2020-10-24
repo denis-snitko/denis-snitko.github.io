@@ -36,7 +36,18 @@
 			<li><a href="https://denis-snitko.github.io/okna/" target="_blank">Верстка редизайна страницы</a></li>
 		</ul>
 		<br>
-		<li><a href="https://denis-snitko.github.io/vigpoint/" target="_blank">Коммерческий проект - Vigpoint</a></li>
+		<li>Коммерческий проект - Vigpoint
+			<ul>
+				<li><a href="https://denis-snitko.github.io/vigpoint/index.html" target="_blank">index.html</a></li>
+				<li><a href="https://denis-snitko.github.io/vigpoint/about.html" target="_blank">about.html</a></li>
+				<li><a href="https://denis-snitko.github.io/vigpoint/brands.html" target="_blank">brands.html</a></li>
+				<li><a href="https://denis-snitko.github.io/vigpoint/contacts.html" target="_blank">contacts.html</a></li>
+				<li><a href="https://denis-snitko.github.io/vigpoint/mounter.html" target="_blank">mounter.html</a></li>
+				<li><a href="https://denis-snitko.github.io/vigpoint/production.html" target="_blank">production.html</a></li>
+				<li><a href="https://denis-snitko.github.io/vigpoint/progress.html" target="_blank">progress.html</a></li>
+				<li><a href="https://denis-snitko.github.io/vigpoint/404.html" target="_blank">404.html</a></li>
+			</ul>
+		</li>
 		<br>
 		<li>Коммерческий проект - All-Corp
 			<ul>
@@ -70,6 +81,7 @@
 				</li>
 			</ul>
 		</li>
+		<br>
 		<br>
 		<li><a href="https://denis-snitko.github.io/calculator/" target="_blank">Калькулятор стоимости разработки Front-end
 				части проекта</a></li>

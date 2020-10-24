@@ -32,6 +32,16 @@
 </ul>
 
 <ul>
+	<li>Реальный проект - BBQParty
+		<ul>
+			<li><a href="https://denis-snitko.github.io/bbq-party/index.html" target="_blank">index.html</a></li>
+			<li><a href="https://denis-snitko.github.io/bbq-party/address.html" target="_blank">address.html</a></li>
+			<li><a href="https://denis-snitko.github.io/bbq-party/conditions.html" target="_blank">conditions.html</a></li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
 	<li>Реальный проект - Aesop
 		<ul>
 			<li><a href="https://denis-snitko.github.io/aesop/index.html" target="_blank">index.html</a></li>

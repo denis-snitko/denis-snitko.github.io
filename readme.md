@@ -1,6 +1,6 @@
 <body>
 	<ul>	
-		<li><a href="https://denis-snitko.github.io/all-corp/" target="_blank">Коммерческий проект - Мяско</a>
+		<li>Коммерческий проект - Мяско
 			<ul>
 				<li><a href="https://denis-snitko.github.io/meat/index.html" target="_blank">index.html</a></li>
 				<li><a href="https://denis-snitko.github.io/meat/assortment.html" target="_blank">assortment.html</a></li>
@@ -21,7 +21,7 @@
 		<br>
         <li><a href="https://denis-snitko.github.io/vigpoint/" target="_blank">Коммерческий проект - Vigpoint</a></li>
 		<br>
-        <li><a href="https://denis-snitko.github.io/all-corp/" target="_blank">Коммерческий проект - All-Corp</a>
+        <li>Коммерческий проект - All-Corp
 			<ul>
 				<li><a href="https://denis-snitko.github.io/all-corp/index.html" target="_blank">index.html</a></li>
 				<li><a href="https://denis-snitko.github.io/all-corp/all-products.html" target="_blank">all-products.html</a></li>

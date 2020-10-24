@@ -55,7 +55,9 @@
 		<ul>
 			<li><a href="https://denis-snitko.github.io/okna/" target="_blank">Верстка редизайна страницы</a></li>
 		</ul>
-		<br>
+	</ul>
+	<br>
+	<ul>
 		<li>Коммерческий проект - Vigpoint
 			<ul>
 				<li><a href="https://denis-snitko.github.io/vigpoint/index.html" target="_blank">index.html</a></li>
@@ -68,7 +70,9 @@
 				<li><a href="https://denis-snitko.github.io/vigpoint/404.html" target="_blank">404.html</a></li>
 			</ul>
 		</li>
-		<br>
+	</ul>
+	<br>
+	<ul>
 		<li>Коммерческий проект - All-Corp
 			<ul>
 				<li><a href="https://denis-snitko.github.io/all-corp/index.html" target="_blank">index.html</a></li>
@@ -86,7 +90,9 @@
 				<li><a href="https://denis-snitko.github.io/all-corp/service.html" target="_blank">service.html</a></li>
 			</ul>
 		</li>
-		<br>
+	</ul>
+	<br>
+	<ul>
 		<li>Коммерческий проект - Doski
 			<ul>
 				<li><a href="https://denis-snitko.github.io/pr-doski/index.html" target="_blank">index.html</a></li>
@@ -101,12 +107,16 @@
 				</li>
 			</ul>
 		</li>
-		<br>
-		<br>
+	</ul>
+	<br>
+	<br>
+	<ul>
 		<li><a href="https://denis-snitko.github.io/calculator/" target="_blank">Калькулятор стоимости разработки Front-end
 				части проекта</a></li>
 		<li><a href="https://denis-snitko.github.io/todo-list/" target="_blank">ToDo-List - Список задач</a></li>
-		<br>
+	</ul>
+	<br>
+	<ul>
 		<li><a href="https://denis-snitko.github.io/pr-oxxo/" target="_blank">Лендинг - OXXO</a></li>
 		<li><a href="https://denis-snitko.github.io/pr-brunch/" target="_blank">Лендинг - BRUNCH</a></li>
 	</ul>

@@ -27,8 +27,7 @@
 				</li>
 				<li><a href="https://denis-snitko.github.io/ironbox/delivery-page.html" target="_blank">delivery-page.html</a>
 				</li>
-				<li><a href="https://denis-snitko.github.io/ironbox/item-page.html" target="_blank">item-page.html</a>
-				</li>
+				<li><a href="https://denis-snitko.github.io/ironbox/item-page.html" target="_blank">item-page.html</a></li>
 				<li><a href="https://denis-snitko.github.io/ironbox/reviews-page.html" target="_blank">reviews-page.html</a>
 				</li>
 			</ul>
@@ -122,8 +121,7 @@
 		</li>
 	</ul>
 
-	<br>
-	<br>
+	<hr>
 
 	<ul>
 		<li><a href="https://denis-snitko.github.io/calculator/" target="_blank">Калькулятор стоимости разработки Front-end

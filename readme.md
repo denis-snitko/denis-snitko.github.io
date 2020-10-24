@@ -13,6 +13,22 @@
 		</li>
 	</ul>
 		<br>
+		<ul>	
+		<li>Коммерческий проект - Aesop
+			<ul>
+				<li><a href="https://denis-snitko.github.io/aesop/index.html" target="_blank">index.html</a></li>
+				<li><a href="https://denis-snitko.github.io/aesop/catalog-page.html" target="_blank">catalog-page.html</a></li>
+				<li><a href="https://denis-snitko.github.io/aesop/careers-page.html" target="_blank">careers-page.html</a></li>
+				<li><a href="https://denis-snitko.github.io/aesop/checkout.html" target="_blank">checkout.html</a></li>
+				<li><a href="https://denis-snitko.github.io/aesop/clean-page.html" target="_blank">clean-page.html</a></li>
+				<li><a href="https://denis-snitko.github.io/aesop/gifts-page.html" target="_blank">gifts-page.html</a></li>
+				<li><a href="https://denis-snitko.github.io/aesop/product-page.html" target="_blank">product-page.html</a></li>
+				<li><a href="https://denis-snitko.github.io/aesop/privacy-page.html" target="_blank">privacy-page.html</a></li>
+				<li><a href="https://denis-snitko.github.io/aesop/ourstory-page.html" target="_blank">ourstory-page.html</a></li>
+			</ul> 
+		</li>
+	</ul>
+		<br>
     <ul>
         <li>Коммерческий проект - окна.рф</li>
 		<ul>

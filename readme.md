@@ -68,10 +68,8 @@
 				<li><a href="https://denis-snitko.github.io/pr-doski/page-news.html" target="_blank">page-news.html</a></li>
 				<li><a href="https://denis-snitko.github.io/pr-doski/product-cart.html" target="_blank">product-cart.html</a>
 				</li>
-
 			</ul>
 		</li>
-		<hr>
 		<br>
 		<li><a href="https://denis-snitko.github.io/calculator/" target="_blank">Калькулятор стоимости разработки Front-end
 				части проекта</a></li>

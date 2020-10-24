@@ -1,6 +1,6 @@
 <body>
 	<ul>
-		<li>Коммерческий проект - Мяско
+		<li>Реальный проект - Мяско
 			<ul>
 				<li><a href="https://denis-snitko.github.io/meat/index.html" target="_blank">index.html</a></li>
 				<li><a href="https://denis-snitko.github.io/meat/assortment.html" target="_blank">assortment.html</a></li>
@@ -12,9 +12,11 @@
 			</ul>
 		</li>
 	</ul>
+
 	<br>
+
 	<ul>
-		<li>Коммерческий проект - ironBox
+		<li>Реальный проект - ironBox
 			<ul>
 				<li><a href="https://denis-snitko.github.io/ironbox/index.html" target="_blank">index.html</a></li>
 				<li><a href="https://denis-snitko.github.io/ironbox/about-page.html" target="_blank">about-page.html</a></li>
@@ -32,9 +34,11 @@
 			</ul>
 		</li>
 	</ul>
+
 	<br>
+
 	<ul>
-		<li>Коммерческий проект - Aesop
+		<li>Реальный проект - Aesop
 			<ul>
 				<li><a href="https://denis-snitko.github.io/aesop/index.html" target="_blank">index.html</a></li>
 				<li><a href="https://denis-snitko.github.io/aesop/catalog-page.html" target="_blank">catalog-page.html</a></li>
@@ -49,16 +53,21 @@
 			</ul>
 		</li>
 	</ul>
+
 	<br>
+
 	<ul>
-		<li>Коммерческий проект - окна.рф</li>
-		<ul>
-			<li><a href="https://denis-snitko.github.io/okna/" target="_blank">Верстка редизайна страницы</a></li>
-		</ul>
+		<li>Реальный проект - окна.рф
+			<ul>
+				<li><a href="https://denis-snitko.github.io/okna/" target="_blank">Верстка редизайна страницы</a></li>
+			</ul>
+		</li>
 	</ul>
+
 	<br>
+
 	<ul>
-		<li>Коммерческий проект - Vigpoint
+		<li>Реальный проект - Vigpoint
 			<ul>
 				<li><a href="https://denis-snitko.github.io/vigpoint/index.html" target="_blank">index.html</a></li>
 				<li><a href="https://denis-snitko.github.io/vigpoint/about.html" target="_blank">about.html</a></li>
@@ -71,9 +80,11 @@
 			</ul>
 		</li>
 	</ul>
+
 	<br>
+
 	<ul>
-		<li>Коммерческий проект - All-Corp
+		<li>Реальный проект - All-Corp
 			<ul>
 				<li><a href="https://denis-snitko.github.io/all-corp/index.html" target="_blank">index.html</a></li>
 				<li><a href="https://denis-snitko.github.io/all-corp/all-products.html" target="_blank">all-products.html</a>
@@ -93,7 +104,7 @@
 	</ul>
 	<br>
 	<ul>
-		<li>Коммерческий проект - Doski
+		<li>Реальный проект - Doski
 			<ul>
 				<li><a href="https://denis-snitko.github.io/pr-doski/index.html" target="_blank">index.html</a></li>
 				<li><a href="https://denis-snitko.github.io/pr-doski/all-news.html" target="_blank">all-news.html</a></li>

@@ -66,7 +66,7 @@
 				<li><a href="https://denis-snitko.github.io/pr-doski/contacts.html" target="_blank">contacts.html</a></li>
 				<li><a href="https://denis-snitko.github.io/pr-doski/news.html" target="_blank">news.html</a></li>
 				<li><a href="https://denis-snitko.github.io/pr-doski/page-news.html" target="_blank">page-news.html</a></li>
-				<li><a href="https://denis-snitko.github.io/pr-doski/product-cart.html" target="_blank">product-cart.html</a>
+				<li><a href="https://denis-snitko.github.io/pr-doski/product-card.html" target="_blank">product-card.html</a>
 				</li>
 			</ul>
 		</li>

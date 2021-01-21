@@ -32,7 +32,7 @@
 </ul>
 
 <ul>
-	<li>Реальный проект - BBQ-Party
+	<li>Реальный проект - BBQParty
 		<ul>
 			<li><a href="https://denis-snitko.github.io/bbq-party/index.html" target="_blank">index.html</a></li>
 			<li><a href="https://denis-snitko.github.io/bbq-party/address.html" target="_blank">address.html</a></li>

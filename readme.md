@@ -62,7 +62,6 @@
 	<li>Реальный проект - окна.рф
 		<ul>
 			<li><a href="https://denis-snitko.github.io/okna/" target="_blank">Верстка редизайна страницы</a></li>
-			<li>Продолжение следует....</li>
 		</ul>
 	</li>
 </ul>

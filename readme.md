@@ -7,7 +7,7 @@
 </ul>
 
 <ul>
-	<li>Коммерческий проект (лендинг) - AppBloom
+	<li>Коммерческий проект - Расчет доставки груза (верстка, валидация форм)
 		<ul>
 			<li><a href="https://denis-snitko.github.io/tmf-calculator/" target="_blank">index.html</a></li>
 		</ul>
@@ -15,9 +15,9 @@
 </ul>
 
 <ul>
-	<li>Коммерческий проект - Расчет доставки груза (верстка, валидация форм)
+	<li>Коммерческий проект (лендинг) - AppBloom
 		<ul>
-			<li><a href="https://denis-snitko.github.io/appbloom/index.html" target="_blank">index.html</a></li>
+			<li><a href="https://denis-snitko.github.io/appbloom/" target="_blank">index.html</a></li>
 		</ul>
 	</li>
 </ul>

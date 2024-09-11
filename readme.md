@@ -33,20 +33,6 @@
 </ul>
 
 <ul>
-	<li>Коммерческий проект - Мяско
-		<ul>
-			<li><a href="https://denis-snitko.github.io/meat/index.html" target="_blank">index.html</a></li>
-			<li><a href="https://denis-snitko.github.io/meat/assortment.html" target="_blank">assortment.html</a></li>
-			<li><a href="https://denis-snitko.github.io/meat/about.html" target="_blank">about.html</a></li>
-			<li><a href="https://denis-snitko.github.io/meat/cart.html" target="_blank">cart.html</a></li>
-			<li><a href="https://denis-snitko.github.io/meat/contacts.html" target="_blank">contacts.html</a></li>
-			<li><a href="https://denis-snitko.github.io/meat/product-page.html" target="_blank">product-page.html</a></li>
-			<li><a href="https://denis-snitko.github.io/meat/shops.html" target="_blank">shops.html</a></li>
-		</ul>
-	</li>
-</ul>
-
-<ul>
 	<li>Коммерческий проект - ironBox
 		<ul>
 			<li><a href="https://denis-snitko.github.io/ironbox/index.html" target="_blank">index.html</a></li>
@@ -61,6 +47,20 @@
 			<li><a href="https://denis-snitko.github.io/ironbox/item-page.html" target="_blank">item-page.html</a></li>
 			<li><a href="https://denis-snitko.github.io/ironbox/reviews-page.html" target="_blank">reviews-page.html</a>
 			</li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
+	<li>Коммерческий проект - Мяско
+		<ul>
+			<li><a href="https://denis-snitko.github.io/meat/index.html" target="_blank">index.html</a></li>
+			<li><a href="https://denis-snitko.github.io/meat/assortment.html" target="_blank">assortment.html</a></li>
+			<li><a href="https://denis-snitko.github.io/meat/about.html" target="_blank">about.html</a></li>
+			<li><a href="https://denis-snitko.github.io/meat/cart.html" target="_blank">cart.html</a></li>
+			<li><a href="https://denis-snitko.github.io/meat/contacts.html" target="_blank">contacts.html</a></li>
+			<li><a href="https://denis-snitko.github.io/meat/product-page.html" target="_blank">product-page.html</a></li>
+			<li><a href="https://denis-snitko.github.io/meat/shops.html" target="_blank">shops.html</a></li>
 		</ul>
 	</li>
 </ul>

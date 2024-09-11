@@ -15,6 +15,16 @@
 </ul>
 
 <ul>
+	<li>Коммерческий проект - Mi.by
+		<ul>
+			<li><a href="https://denis-snitko.github.io/mi-by/" target="_blank">index.html</a></li>
+			<li><a href="https://denis-snitko.github.io/mi-by/favorites.html" target="_blank">favorites.html</a></li>
+			<li><a href="https://denis-snitko.github.io/mi-by/compare.html" target="_blank">compare.html</a></li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
 	<li>Коммерческий проект - Мяско
 		<ul>
 			<li><a href="https://denis-snitko.github.io/meat/index.html" target="_blank">index.html</a></li>

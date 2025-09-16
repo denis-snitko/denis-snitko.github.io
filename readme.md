@@ -7,6 +7,16 @@
 </ul>
 
 <ul>
+	<li>Сервис работы с пользователями на Express + TypeScript + Prisma + PostgreSQL + Docker
+		<ul>
+			<li><a href="https://github.com/denis-snitko/user-service" target="_blank">Repositiry Page</a></li>
+		</ul>
+	</li>
+</ul>
+
+<hr />
+
+<ul>
 	<li>Коммерческий проект - Sushi Vesla
 		<ul>
 			<li><a href="https://denis-snitko.github.io/sushi-vesla/" target="_blank">index.html</a></li>

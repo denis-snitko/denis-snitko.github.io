@@ -1,4 +1,12 @@
 <ul>
+	<li>Пример работы i18n + NextJS
+		<ul>
+			<li><a href="https://i18n-and-next-js.vercel.app" target="_blank">Home Page</a></li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
 	<li>Коммерческий проект - Sushi Vesla
 		<ul>
 			<li><a href="https://denis-snitko.github.io/sushi-vesla/" target="_blank">index.html</a></li>

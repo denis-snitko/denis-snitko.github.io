@@ -1,5 +1,13 @@
 <h1>2025</h1>
 <ul>
+	<li>Современная сборка для верстки с использованием TypeScript, Vite, Handlebars и SCSS.
+		<ul>
+			<li><a href="https://i18n-and-next-js.vercel.app" target="_blank">Repository Page</a></li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
 	<li>Пример работы i18n + NextJS
 		<ul>
 			<li><a href="https://i18n-and-next-js.vercel.app" target="_blank">Home Page</a></li>

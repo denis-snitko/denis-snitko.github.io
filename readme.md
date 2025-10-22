@@ -2,7 +2,7 @@
 <ul>
 	<li>Современная сборка для верстки с использованием TypeScript, Vite, Handlebars и SCSS.
 		<ul>
-			<li><a href="https://i18n-and-next-js.vercel.app" target="_blank">Repository Page</a></li>
+			<li><a href="https://github.com/denis-snitko/modern-frontend-boilerplate" target="_blank">Repository Page</a></li>
 		</ul>
 	</li>
 </ul>

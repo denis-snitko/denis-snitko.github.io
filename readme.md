@@ -1,5 +1,14 @@
 <h1>2025</h1>
 <ul>
+	<li>Проект: GSAP Course (Этот проект создан в рамках курса по анимации с помощью GSAP.)
+		<ul>
+			<li><a href="https://gsap-course-green.vercel.app" target="_blank">Home Page</a></li>
+			<li><a href="https://github.com/denis-snitko/gsap-course" target="_blank">Repository Page</a></li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
 	<li>Современная сборка для верстки с использованием TypeScript, Vite, Handlebars и SCSS.
 		<ul>
 			<li><a href="https://github.com/denis-snitko/modern-frontend-boilerplate" target="_blank">Repository Page</a></li>
@@ -11,6 +20,7 @@
 	<li>Пример работы i18n + NextJS
 		<ul>
 			<li><a href="https://i18n-and-next-js.vercel.app" target="_blank">Home Page</a></li>
+			<li><a href="https://github.com/denis-snitko/i18n-and-next-js" target="_blank">Repository Page</a></li>
 		</ul>
 	</li>
 </ul>
